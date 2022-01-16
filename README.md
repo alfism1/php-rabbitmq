@@ -13,3 +13,8 @@ My exploration about rabbit mq using PHP
 - cd work_queues
 - php worker.php
 - php new_task.php blablabla.......
+
+### Publisher Subscribe
+- cd pubsub
+- php receive_logs.php (Run in multiple terminal)
+- php emit_log.php **some message**
